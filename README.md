@@ -18,6 +18,14 @@ go install github.com/karimodm/typegroupingcheck@latest
 
 Replace `github.com/karimodm/typegroupingcheck` with the actual import path of your linter.
 
+## Building
+
+To build `typegroupingcheck` as a plugin ready to be used by golangci-list, use the following command:
+
+```sh
+go build -buildmode=plugin -o typegroupingcheck.so
+```
+
 ## Usage
 
 After installation, you can run `typegroupingcheck` on your Go files or projects like so:

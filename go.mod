@@ -1,6 +1,6 @@
 module github.com/karimodm/typegroupingcheck
 
-go 1.21.4
+go 1.21
 
 require golang.org/x/tools v0.14.0
 
